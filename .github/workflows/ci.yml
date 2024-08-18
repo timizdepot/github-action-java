@@ -32,7 +32,7 @@ jobs:
     - name: Build with Gradle
       run: |
         ./gradlew build
-        docker build -t timizdepot/timiz:java.01 .
+        ls -la
 
     # - name: Build and Push Docker Image
     #   uses: mr-smithers-excellent/docker-build-push@v6
